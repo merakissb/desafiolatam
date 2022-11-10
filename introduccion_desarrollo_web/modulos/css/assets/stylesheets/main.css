@@ -1,0 +1,142 @@
+/* Page */
+.body {
+  font-family: "Arial";
+  background-color: #e6e9ea;
+}
+
+header {
+  background-image: url(../images/header.png);
+  background-repeat: repeat;
+  background-size: 50% 100%;
+  padding: 3px;
+  text-align: center;
+}
+
+.title {
+  text-shadow: 1px 1px 1px black;
+  color: #cbcac2;
+  padding-bottom: 10px;
+}
+
+.subtitle {
+  color: #000000;
+}
+
+.pokemon-card-container {
+  width: 350px;
+  height: auto;
+  margin: 10%;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pokemon-background {
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.pokemon-image {
+  width: 200px;
+  height: 200px;
+}
+
+.pokemon-content {
+  padding: 10px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.pokemon-name {
+  text-align: center;
+  font-size: 19px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.pokemon-type {
+  background-color: black;
+  padding: 7px;
+  color: white;
+  border-radius: 5px;
+  width: 70px;
+  display: block;
+  text-align: center;
+  position: relative;
+  top: -95px;
+}
+
+.pokemon-stats > p {
+  letter-spacing: 1px;
+  text-indent: 5px;
+  font-weight: bold;
+}
+
+/* Pokemon Colors */
+
+#squirtle-card-container {
+  background: linear-gradient(to right, #31999f, #499cab);
+}
+
+#squirtle-background {
+  background: linear-gradient(to right, #00494c, #005f66);
+}
+
+#squirtle-content {
+  background: linear-gradient(to right, #7da5aa, #8fc0c2);
+}
+
+/* */
+
+#pikachu-card-container {
+  background: linear-gradient(to right, #ea981c, #ffcc1a);
+}
+
+#pikachu-background {
+  background: linear-gradient(to right, #724b0b, #795b00);
+}
+
+#pikachu-content {
+  background: linear-gradient(to right, #bc996a, #a89b6c);
+}
+
+/* */
+
+#charmander-card-container {
+  background: linear-gradient(to right, #da5b08, #a65125);
+}
+
+#charmander-background {
+  background: linear-gradient(to right, #5c280b, #942d00);
+}
+
+#charmander-content {
+  background: linear-gradient(to right, #9c6b4d, #c99e84);
+}
+
+/* */
+
+#bulbasaur-card-container {
+  background: linear-gradient(to right, #739d5c, #20866b);
+}
+
+#bulbasaur-background {
+  background: linear-gradient(to right, #2f4429, #2f4d44);
+}
+
+#bulbasaur-content {
+  background: linear-gradient(to right, #528577, #77bda8);
+}
+
+/* Footer */
+
+footer {
+  background: linear-gradient(to right, #767070, #c6bdb7);
+  text-align: center;
+  padding: 10px;
+  color: rgb(45, 42, 42);
+  font-size: large;
+}
