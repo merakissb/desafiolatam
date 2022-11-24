@@ -1,0 +1,74 @@
+/* fonts */
+/* 300 = lighter , 500 = medium */
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+/* navbar section */
+nav {
+  background-color: #28A745;
+}
+
+.navbar-nav .nav-item .nav-link.active {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: rgba(255, 255, 255, 0.621);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+
+.navbar-nav .nav-item .nav-link.disabled {
+  color: rgba(255, 255, 255, 0.253);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+/* main section */
+
+
+/* form section */
+form {
+  background-color: #28A745;
+  padding: 30px;
+  text-align: center;
+}
+
+form h2 {
+  color: white;
+  margin: 0;
+  font-size: 17pt;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+form .container-fluid input {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+form .container-fluid button {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+/* footer section  */
+footer .container-fluid  {
+  text-align: center;
+  padding: 20px;
+}
+
+footer .container-fluid  img {
+  height: 30px;
+}
+
+footer .container-fluid p {
+  font-size: 16px;
+  color: #707070;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  padding: 3px;
+}
