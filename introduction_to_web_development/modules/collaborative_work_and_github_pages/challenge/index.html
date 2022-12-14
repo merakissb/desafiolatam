@@ -1,12 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- author meta -->
+    <meta name="author" content="Matías Quiroz Bustos">
+    <title>Desafío Final</title>
+    <!-- personal stylesheet -->
+    <link rel="stylesheet" href="assets/stylesheets/normalize.css">
+    <link rel="stylesheet" href="assets/stylesheets/main.css">
+    <!-- bootstrap stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+  </head>
+  <body>
 
-</body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          Desafío Final
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#briefcase">Portafolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre Mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="text-white text-center">
+      <div class="container d-flex align-items-center flex-column">
+        <img id="img-header" class="mb-2 mt-1 rounded-circle img-fluid" src="assets/images/maraki.jpeg" alt="">
+        <h2 class="mb-1">Matías Quiroz Bustos</h2>
+        <div class="divider">
+          <div class="lines"></div>
+          <i class="fa-regular fa-star"></i>
+          <div class="lines"></div>
+        </div>
+        <h3 class="font-weight-light mb-3">Software Developer </h3>
+      </div>
+    </header>
+
+    <main>
+      <div class="container mt-3 mb-3">
+        <div class="text-center mb-1">
+          <h1 id="briefcase">Portafolio</h1>
+        </div>
+
+        <div class="divider text-center">
+          <div class="lines"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="lines"></div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4 mt-1">
+
+          <div class="col">
+            <div class="card shadow-sm text-center">
+              <img src="assets/images/html.png" alt="imagen-1">
+              <div class="card-body">
+                <h5 class="card-title text-muted">Desafío 1 - Mi Curriculum Vitae en HTML</h5>
+                <a href="https://merakissb.github.io/desafiolatam/introduction_to_web_development/modules/html/challenge/index.html" class="btn btn-primary">Ir al desafío</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm text-center">
+              <img src="assets/images/css.png" alt="imagen-2">
+              <div class="card-body">
+                <h5 class="card-title text-muted">Desafío 2 - Construyendo un landing page</h5>
+                <a href="https://merakissb.github.io/desafiolatam/introduction_to_web_development/modules/css/challenge/index.html" class="btn btn-primary">Ir al desafío</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="card shadow-sm text-center">
+              <img src="assets/images/iguana.png" alt="imagen-3">
+              <div class="card-body">
+                <h5 class="card-title text-muted">Desafío 3 - Iguana page</h5>
+                <a href="https://merakissb.github.io/desafiolatam/introduction_to_web_development/modules/positioning/challenge/index.html" class="btn btn-primary">Ir al desafío</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="offset-md-2 col-md-4">
+            <div class="card shadow-sm text-center">
+              <img src="assets/images/bootstrap.png" alt="imagen-4">
+              <div class="card-body">
+                <h5 class="card-title text-muted">Desafío 4 - Cuppon</h5>
+                <a href="https://merakissb.github.io/desafiolatam/introduction_to_web_development/modules/bootstrap/challenge/index.html" class="btn btn-primary">Ir al desafío</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card shadow-sm text-center">
+              <img src="assets/images/github.png" alt="imagen-5">
+              <div class="card-body">
+                <h5 class="card-title text-muted">Desafío 5 - GitHub</h5>
+                <a href="https://github.com/merakissb/fdsw-github" class="btn btn-primary">Ir al desafío</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 offset-md-4">
+            <div class="card shadow-sm text-center">
+              <img src="assets/images/handle.png" alt="imagen-6">
+              <div class="card-body">
+                <h5 class="card-title text-muted">Fork a proyectos de compañeros</h5>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Ver Contenido
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  ...
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <section class="about text-white">
+      <div class="container">
+        <div class="text-center">
+          <h1 id="about">Sobre Mí</h1>
+        </div>
+
+        <div class="divider">
+          <div class="lines"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="lines"></div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-md-4 offset-md-2">
+            <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
+          </div>
+
+          <div class="col-md-4 mr-auto">
+            <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="contact text-dark">
+      <div class="container">
+        <div class="text-center">
+          <h1 id="contact">Contacto</h1>
+        </div>
+
+        <div class="divider">
+          <div class="lines"></div>
+          <i class="fa-solid fa-star"></i>
+          <div class="lines"></div>
+        </div>
+
+        <div class="row justify-content-center">
+
+          <div class="col-lg-4">
+            <div class="d-flex flex-column align-items-center">
+              <div class="icon-contact mb-3"><i class="fa-solid fa-mobile-screen-button"></i></div>
+              <div class="text-muted">Phone</div>
+              <div class="lead font-weight-bold">(+56) 932331274</div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mb-3">
+            <div class="d-flex flex-column align-items-center">
+              <div class="icon-contact mb-3"><i class="fa-regular fa-envelope"></i></div>
+              <div class="text-muted">Email</div><a class="lead font-weight-bold" href="mailto:mbustosquiroz@gmail.com">mbustosquiroz@gmail.com</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+   <footer class="py-4 text-center text-white">
+      <div class="container"><small class="pre-wrap">Copyright © Meraki 2022 </small></div>
+    </footer>
+
+    <!-- -->
+    <!-- popper and js to dropdowns and interactive components -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/01cce2f544.js" crossorigin="anonymous"></script>
+  </body>
 </html>
