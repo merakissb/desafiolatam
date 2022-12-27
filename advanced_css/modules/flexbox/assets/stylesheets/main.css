@@ -1,0 +1,113 @@
+#chat-container {
+  display: flex;
+}
+
+#chat-menu .boxes{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 18em;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-color: aqua;
+}
+
+#active-box {
+  background-color: #fff;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+#active-box #profile {
+  display: flex;
+  align-items: center;
+}
+
+#active-box #profile #avatar img{
+  padding: 0.5rem;
+  width: 2.5em;
+  border-radius: 50%;
+  border: #E8EBE4;
+}
+
+#profile-description p {
+  margin: 0;
+}
+
+#profile-description #status {
+  color: darkgray;
+  font-size: 0.7em;
+}
+
+#icons {
+  color:  darkgray;
+}
+
+#new-chat-box {
+  background-color: #fff;
+  height: 7em;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+#container-button-chat {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  background-color: #A491D2;
+  border: none;
+  color: white;
+  padding: 10px 44px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#idle-box {
+  background-color: #fff;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+#idle-box #profile {
+  display: flex;
+  align-items: center;
+}
+
+#idle-box #profile #avatar img {
+  padding: 0.5rem;
+  width: 4em;
+  border-radius: 50%;
+}
+
+#idle-box #profile-description {
+  margin: 0;
+}
+
+#idle-box #profile-description #name {
+  font-size: 1em;
+}
+
+#idle-box #profile-description #status {
+  color: black;
+  font-size: 0.9em;
+}
+/* */
+
+#chat-window {
+  min-width: 100%;
+  background-color: rgb(53, 121, 99);
+}
