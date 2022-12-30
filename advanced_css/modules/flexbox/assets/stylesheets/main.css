@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+  font-family: 'Roboto';
+}
+
 .row>* {
   padding-right: 0 !important;
   padding-left: 0 !important;
@@ -9,6 +15,7 @@
 
 .active-status {
   color: #bec1bb;
+  font-size: 13px;
 }
 
 .status p {
@@ -16,8 +23,7 @@
 }
 
 .new-chat {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  height: 150px;
   border-bottom: 2px solid #e8ebe4;
 }
 
