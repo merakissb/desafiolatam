@@ -1,0 +1,49 @@
+.row>* {
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.img-fluid {
+  width: 3em;
+}
+
+.active-status {
+  color: #bec1bb;
+}
+
+.status p {
+  margin: 0;
+}
+
+.new-chat {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  border-bottom: 2px solid #e8ebe4;
+}
+
+.new-chat button {
+  width: 12rem;
+  height: 3rem;
+}
+
+#active-box {
+  border-bottom: 2px solid #e8ebe4;
+}
+
+#idle-box {
+  border-bottom: 2px solid #e8ebe4;
+  padding: 2px;
+}
+
+.chat-window {
+  padding-top: 20rem;
+}
+
+.logo img {
+  width: 250px;
+  height: 250px;
+}
+
+.description p {
+  margin: 0;
+}
